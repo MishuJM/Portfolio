@@ -1,0 +1,961 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.navbar{
+    /* border: 1px solid black; */
+    height: fit-content;
+    width: 100vw;
+    background-color: black; 
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: repeat(1,1fr);
+
+}
+.navbarpart{
+    display: flex;
+    justify-content: center;
+    margin:4%;
+} 
+
+.navbarpart1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:4%;
+    
+}
+
+#navbarprt1{
+    /* background: linear-gradient(rgb(222, 80, 222),rgb(224, 150, 13)); 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+    /* font-family: cursive; */
+}
+
+
+.navbarpart1 div a {
+    text-decoration: none;
+    /* background: linear-gradient(rgb(222, 80, 222),rgb(224, 150, 13));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+    color: white;
+}
+
+
+
+/* <!-- INTRODUCTION --> */
+.wrapper1{
+    width: 100vw;
+    height: fit-content;
+    /* border: 1px solid black; */
+    background-color: black;
+
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.Intro-box1{
+    display:flex;
+    justify-content: center;
+    margin:4%;
+}
+#image1{
+    border-radius: 50%;
+}
+.Intro-box2{
+    display: flex;
+    justify-content: center;
+    
+} 
+.Intro-box3{
+    display: flex;
+    justify-content: center;
+    
+} 
+
+#name1{
+    text-align: center;
+    background: linear-gradient(rgb(222, 80, 222),rgb(224, 150, 13));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+}
+
+#name2{
+    text-align: center;
+    color:white;
+}
+#name3{
+    text-align: center;
+    color:white;
+}
+
+/* ABOUT ME INTRODUCTION */
+.wrapper2{
+    width: 100vw;
+    height: auto;
+    background-color: black;
+}
+.About-mebox1{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+
+}
+
+/* ABOUT ME CONTENT */
+.wrapper3{
+    /* border:2px solid red ; */
+    width:100vw;
+    height:fit-content ;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    display:flex;
+    background-color: black;
+    justify-content: center;
+    
+}
+
+.wrapper3box{
+    /* border: 2px solid grey; */
+    height: 100vh;
+    width: 100vw;
+    margin:5%;
+    position: relative;
+    right:1%;
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
+   
+}
+#wrapper3prt{
+     background-color: black; 
+} 
+
+.About-me1stcontentbox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#image2{
+    border-radius: 50%;
+}
+
+.About-me2ndcontentbox1{
+    color: white;
+    display: flex;
+    align-content: center;
+    position: relative;
+    top:20%;
+
+}
+
+.About-me2ndcontentbox2{
+    color: white;
+    display: flex;
+    align-content: center;
+    position: relative;
+    top:22%;
+    
+}
+
+.About-me2ndcontentbox3{
+    color: white;
+    display: flex;
+    align-content: center;
+    position: relative;
+    top:26%;
+    
+}
+
+.About-me2ndcontentbox4{
+    color: white;
+    display: flex;
+    align-content: center;
+    position: relative;
+    top:36%;
+    
+}
+
+.About-me2ndcontentbox5{
+    color: white;
+    display: flex;
+    align-content: center;
+    position: relative;
+    top:38%;
+    
+}
+
+.About-me2ndcontentbox6{
+    color: white;
+    display: flex;
+    align-content: center;
+    position: relative;
+    top:40%;
+    
+}
+
+ 
+/* SKILLS */
+.wrapper4{
+    width:100vw;
+    height: fit-content;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.Skillsbox1{
+    color: white;
+    margin:2%;
+
+}
+
+
+/* SKILLS CONTENT */
+.wrapper5{
+    height: fit-content;
+    width:100vw;
+    background-color: black;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-contentwrapper1{
+     border: 2px solid grey; 
+    /* width:400px;
+    height: 400px; */
+    margin: 7%;
+    width:100vw;
+    height: fit-content;
+    display:grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(1,1fr);
+    background-color: black;
+    
+}
+
+.skill-contentwrapper2{
+     border: 2px solid grey; 
+    /* width:400px;
+    height: 400px; */
+    width:100vw;
+    margin: 7%;
+    height: fit-content;
+    
+    
+}
+
+.skill-box1{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid grey; */
+    margin: 2%;
+}
+
+
+.skill-box5{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid grey; */
+    margin: 2%;
+}
+
+
+.skill-box2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+.SKbox2-1{
+    display: flex;
+    justify-content: center;
+    margin:10%;
+}
+#java{
+    align-content: center;
+}
+
+
+.SKbox2-2{
+    display: flex;
+    justify-content: center;
+    margin:10%;
+}
+#python{
+    align-content: center;
+}
+
+
+
+
+.skill-box3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+.SKbox3-1{
+    display: flex;
+    justify-content: center;
+    margin:10%;
+}
+#html{
+    align-content: center;
+}
+
+
+.SKbox3-2{
+    display: flex;
+    justify-content: center;
+    margin:10%;
+}
+#css{
+    align-content: center;
+}
+
+
+
+
+
+.skill-box4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+.SKbox4-1{
+    display: flex;
+    justify-content: center;
+    margin:10%;
+}
+#html{
+    align-content: center;
+}
+
+
+.SKbox4-2{
+    display: flex;
+    justify-content: center;
+    margin:10%;
+}
+#css{
+    align-content: center;
+}
+
+
+.skill-box6{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+.SKbox6-1{
+    display: flex;
+    justify-content: center;
+    margin:13%;
+}
+#Critical-thinking{
+    align-content: center;
+}
+
+
+.SKbox6-2{
+    display: flex;
+    justify-content: center;
+    margin:13%;
+}
+#problem-solving{
+    align-content: center;
+}
+
+
+
+.skill-box7{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+.SKbox7-1{
+    display: flex;
+    justify-content: center;
+    margin:13%;
+}
+#communication{
+    align-content: center;
+}
+
+
+.SKbox7-2{
+    display: flex;
+    justify-content: center;
+    margin:13%;
+}
+#teamwork{
+    align-content: center;
+}
+
+
+
+.skill-box8{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+.SKbox8-1{
+    display: flex;
+    justify-content: center;
+    margin:13%;
+}
+#time{
+    align-content: center;
+}
+
+
+.SKbox8-2{
+    display: flex;
+    justify-content: center;
+    margin:13%;
+}
+#network{
+    align-content: center;
+}
+
+#SKboxprt5-1{
+    background: linear-gradient(rgb(222, 80, 222),rgb(224, 150, 13));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family:cursive;
+}
+
+#SKboxprt1-1{
+    background: linear-gradient(rgb(222, 80, 222),rgb(224, 150, 13));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family:cursive;
+
+}
+
+
+
+
+
+/* PROJECTS */
+.wrapper6{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+    
+}
+
+
+
+#Projects{
+    color: white;
+}
+
+.Projectsbox1{
+    margin: 5%;
+}
+
+
+
+
+/* PROJECT-CONTENT */
+
+.wrapper7{
+    /* border: 1px solid red; */
+    height: fit-content;
+    width: 100vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-gap: 3%;
+    
+
+}
+.wrapper7box-1{
+    border: 2px solid white;
+    margin: 8%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 1fr 0.3fr 0.3fr;
+    border-radius: 4%;
+    
+    
+}
+.wrapper7box-2{
+    border: 2px solid white;
+    margin: 8%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 1fr 0.3fr 0.3fr;
+    border-radius: 4%;
+    
+}
+.wrapper7box-3{
+    border: 2px solid white;
+    margin: 8%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 1fr 0.3fr 0.3fr;
+    border-radius: 4%;
+}
+
+/* BOX-1 */
+
+.SK-BOX1-1{
+    margin: 4%;
+}
+.SK-BOX1{
+    display: flex;
+    justify-content: center;
+}
+#port-15{
+    border-radius: 5%;
+}
+
+.SK-BOX2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SK-BOX3-1{
+    border: 1px solid white;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 11%;
+    background: linear-gradient(rgb(222, 80, 222),rgb(224, 150, 13));
+   
+  
+}
+
+#SK-BOXPRT3-1{
+    padding: 4%;
+    
+}
+
+.SK-BOX3{
+    display: flex;
+    justify-content: center;
+    
+}
+.SK-BOX3 div a{
+    text-decoration: none;
+    color:white;
+    
+}
+
+
+
+/* BOX-2 */
+
+.SK-BOX4-1{
+    margin: 4%;
+}
+.SK-BOX4{
+    display: flex;
+    justify-content: center;
+}
+#port-16{
+    border-radius: 5%;
+}
+
+.SK-BOX5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SK-BOX6-1{
+    border: 1px solid white;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 11%;
+    background: linear-gradient(rgb(222, 80, 222),rgb(224, 150, 13));
+   
+  
+}
+
+#SK-BOXPRT6-1{
+    padding: 4%;
+    
+}
+
+.SK-BOX6{
+    display: flex;
+    justify-content: center;
+    
+}
+.SK-BOX6 div a{
+    text-decoration: none;
+    color:white;
+    
+}
+
+
+
+
+/* BOX 3 */
+
+.SK-BOX7-1{
+    margin: 4%;
+}
+.SK-BOX7{
+    display: flex;
+    justify-content: center;
+}
+#port-18{
+    border-radius: 5%;
+}
+
+.SK-BOX8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SK-BOX9-1{
+    border: 1px solid white;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 11%;
+    background: linear-gradient(rgb(222, 80, 222),rgb(224, 150, 13));
+   
+  
+}
+
+#SK-BOXPRT9-1{
+    padding: 4%;
+    
+}
+
+.SK-BOX9{
+    display: flex;
+    justify-content: center;
+    
+}
+.SK-BOX9 div a{
+    text-decoration: none;
+    color:white;
+    
+}
+
+
+/* EDUCATION */
+.wrapper8{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Educationbox1{
+    margin: 5%;
+}
+
+
+
+/* EDUCATION-CONTENT */
+/* GRADUATION */
+.wrapper9{
+    background-color: black;
+    height: fit-content;
+    width: 100vw;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 0.3fr 1fr ;
+}
+
+.wrapper9box1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.wrapper9box2{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.border1{
+    /* border: 2px solid white; */
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1,1fr);
+    width: 70%;
+    margin: 2%;
+    border-radius: 22px;
+    background-color: white;
+    
+}
+#port-20{
+    border-radius: 4%;
+}
+.ED-CNT1{
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ED-CNT2{
+    display: flex;
+    align-items: center;
+}
+
+
+/* CLASS 12 */
+
+.wrapper10{
+    background-color: black;
+    height: fit-content;
+    width: 100vw;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 0.3fr 1fr ;
+}
+
+.wrapper10box1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.wrapper10box2{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.border2{
+    /* border: 2px solid white; */
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1,1fr);
+    width: 70%;
+    margin: 2%;
+    border-radius: 22px;
+    background-color: white;
+    
+}
+#port-21{
+    border-radius: 4%;
+}
+.ED-CNT3{
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ED-CNT4{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* CLASS-10 */
+
+.wrapper11{
+    background-color: black;
+    height: fit-content;
+    width: 100vw;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 0.3fr 1fr ;
+}
+
+.wrapper11box1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.wrapper11box2{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.border3{
+    /* border: 2px solid white; */
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1,1fr);
+    width: 70%;
+    margin: 2%;
+    border-radius: 22px;
+    background-color: white;
+    
+}
+#port-22{
+    border-radius: 4%;
+}
+.ED-CNT5{
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ED-CNT6{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* CERTIFICATION */
+
+.wrapper12{
+    background-color: black;
+    height: fit-content;
+    width: 100vw;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 0.3fr 1fr ;
+}
+
+.wrapper12box1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.wrapper12box2{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.border4{
+    /* border: 2px solid white; */
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1,1fr);
+    width: 70%;
+    margin: 2%;
+    border-radius: 22px;
+    background-color: white;
+    
+}
+#port-23{
+    border-radius: 4%;
+}
+.ED-CNT7{
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ED-CNT8{
+    display: flex;
+    align-items: center;
+}
+
+
+/* CONTACT */
+.wrapper13{
+    background-color: black;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Contactbox1{
+    margin: 2%;
+}
+
+
+/* CONTACT-CONTENT */
+.wrapper14{
+    /* border: 2px solid red; */
+    height: fit-content;
+    background-color: black;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr) ;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper14-1{
+    border: 2px solid white;
+    width: 50%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 1fr 0.5fr;
+    margin: 2%;
+}
+
+.C-CNT1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.C-CNT2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .C-CNT3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .C-CNT4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+
+ .submit-box{
+    /* border: 2px solid white; */
+    width: 14%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(149,132,230);
+
+ }
+
+ .C-CNT5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
